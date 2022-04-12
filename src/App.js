@@ -8,7 +8,7 @@ import InsurancePlans from './Components/InsurancePlans';
 function App() {
   return (
     <div className="insuranceImage" >
-      <Router>
+      <Router basename={'/insuranceApp'}>
 
         <Route path='/' exact render={() => (
           <InsurancePlans />
