@@ -1,0 +1,24 @@
+.container {
+  background-color:lightgray;
+  background: rgba(218, 223, 225, 0.8);
+}
+
+.border{
+  border: 1px solid;
+}
+
+.insuranceImage{
+    background-image: url("./Assets/insuranceImage2.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8%;
+    font-family: cursive;
+}
+
+.titleContainer{
+  font-size: 21px;
+  color: white;
+  background: black;
+}
